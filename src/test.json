@@ -1,0 +1,135 @@
+message: {
+  "id": "8f11ec71-1289-4931-a348-23f815f720b2",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "Hello! How can I help you today?",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning_content": "We need answer greeting. Should be friendly. \"Hello! How can I help you today?\" Maybe mention ready. No need overdo."
+      }
+    }
+  ],
+  "created": 1794472221,
+  "model": "deepseek-flash",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+  "usage": {
+    "completion_tokens": 38,
+    "prompt_tokens": 32,
+    "total_tokens": 70,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 28,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cache_write_tokens": null,
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 32
+  }
+}
+response: {
+  "id": "af182937-7c4e-46f4-8d41-d23519fd8398",
+  "created_at": 1794472220.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": "You are a helpful assistant.",
+  "metadata": {},
+  "model": "deepseek-flash",
+  "object": "response",
+  "output": [
+    {
+      "id": "6ef20603-0f41-43ac-b7c8-c7e95be538a2",
+      "summary": [],
+      "type": "reasoning",
+      "content": [
+        {
+          "text": "The user just said \"Hello!\" — a simple greeting. I should respond warmly and concisely, maybe offer to help. No need for tools.",
+          "type": "reasoning_text"
+        }
+      ],
+      "encrypted_content": "af182937-7c4e-46f4-8d41-d23519fd8398-0",
+      "status": "completed"
+    },
+    {
+      "id": "b901dc8e-5fc3-4105-96c2-ec29aae3329b",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Hello! 👋 How can I help you today?",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 1.0,
+  "background": false,
+  "completed_at": 1794472221.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_options": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "generate_summary": null,
+    "mode": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": null
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 38,
+    "input_tokens_details": {
+      "cache_write_tokens": null,
+      "cached_tokens": 0
+    },
+    "output_tokens": 43,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 81
+  },
+  "user": null,
+  "content_filters": null,
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": false
+} >>>Hello! 👋 How can I help you today?
